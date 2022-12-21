@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16E1F7C129531D080055A87A /* HopeboyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1F7C029531D080055A87A /* HopeboyApp.swift */; };
+		16E1F7C329531D080055A87A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1F7C229531D080055A87A /* ContentView.swift */; };
+		16E1F7C529531D090055A87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E1F7C429531D090055A87A /* Assets.xcassets */; };
+		16E1F7C829531D090055A87A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E1F7C729531D090055A87A /* Preview Assets.xcassets */; };
+		16E1F7D329531D0A0055A87A /* HopeboyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1F7D229531D0A0055A87A /* HopeboyTests.swift */; };
+		16E1F7DD29531D0A0055A87A /* HopeboyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1F7DC29531D0A0055A87A /* HopeboyUITests.swift */; };
+		16E1F7DF29531D0A0055A87A /* HopeboyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1F7DE29531D0A0055A87A /* HopeboyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16E1F7CF29531D0A0055A87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16E1F7B529531D080055A87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16E1F7BC29531D080055A87A;
+			remoteInfo = Hopeboy;
+		};
+		16E1F7D929531D0A0055A87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16E1F7B529531D080055A87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16E1F7BC29531D080055A87A;
+			remoteInfo = Hopeboy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16E1F7BD29531D080055A87A /* Hopeboy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hopeboy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E1F7C029531D080055A87A /* HopeboyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopeboyApp.swift; sourceTree = "<group>"; };
+		16E1F7C229531D080055A87A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16E1F7C429531D090055A87A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16E1F7C729531D090055A87A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16E1F7C929531D090055A87A /* Hopeboy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hopeboy.entitlements; sourceTree = "<group>"; };
+		16E1F7CE29531D0A0055A87A /* HopeboyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopeboyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E1F7D229531D0A0055A87A /* HopeboyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopeboyTests.swift; sourceTree = "<group>"; };
+		16E1F7D829531D0A0055A87A /* HopeboyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopeboyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E1F7DC29531D0A0055A87A /* HopeboyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopeboyUITests.swift; sourceTree = "<group>"; };
+		16E1F7DE29531D0A0055A87A /* HopeboyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopeboyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16E1F7BA29531D080055A87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1F7CB29531D0A0055A87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1F7D529531D0A0055A87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16E1F7B429531D080055A87A = {
+			isa = PBXGroup;
+			children = (
+				16E1F7BF29531D080055A87A /* Hopeboy */,
+				16E1F7D129531D0A0055A87A /* HopeboyTests */,
+				16E1F7DB29531D0A0055A87A /* HopeboyUITests */,
+				16E1F7BE29531D080055A87A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16E1F7BE29531D080055A87A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16E1F7BD29531D080055A87A /* Hopeboy.app */,
+				16E1F7CE29531D0A0055A87A /* HopeboyTests.xctest */,
+				16E1F7D829531D0A0055A87A /* HopeboyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16E1F7BF29531D080055A87A /* Hopeboy */ = {
+			isa = PBXGroup;
+			children = (
+				16E1F7C029531D080055A87A /* HopeboyApp.swift */,
+				16E1F7C229531D080055A87A /* ContentView.swift */,
+				16E1F7C429531D090055A87A /* Assets.xcassets */,
+				16E1F7C929531D090055A87A /* Hopeboy.entitlements */,
+				16E1F7C629531D090055A87A /* Preview Content */,
+			);
+			path = Hopeboy;
+			sourceTree = "<group>";
+		};
+		16E1F7C629531D090055A87A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16E1F7C729531D090055A87A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16E1F7D129531D0A0055A87A /* HopeboyTests */ = {
+			isa = PBXGroup;
+			children = (
+				16E1F7D229531D0A0055A87A /* HopeboyTests.swift */,
+			);
+			path = HopeboyTests;
+			sourceTree = "<group>";
+		};
+		16E1F7DB29531D0A0055A87A /* HopeboyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16E1F7DC29531D0A0055A87A /* HopeboyUITests.swift */,
+				16E1F7DE29531D0A0055A87A /* HopeboyUITestsLaunchTests.swift */,
+			);
+			path = HopeboyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16E1F7BC29531D080055A87A /* Hopeboy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E1F7E229531D0A0055A87A /* Build configuration list for PBXNativeTarget "Hopeboy" */;
+			buildPhases = (
+				16E1F7B929531D080055A87A /* Sources */,
+				16E1F7BA29531D080055A87A /* Frameworks */,
+				16E1F7BB29531D080055A87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hopeboy;
+			productName = Hopeboy;
+			productReference = 16E1F7BD29531D080055A87A /* Hopeboy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16E1F7CD29531D0A0055A87A /* HopeboyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E1F7E529531D0A0055A87A /* Build configuration list for PBXNativeTarget "HopeboyTests" */;
+			buildPhases = (
+				16E1F7CA29531D0A0055A87A /* Sources */,
+				16E1F7CB29531D0A0055A87A /* Frameworks */,
+				16E1F7CC29531D0A0055A87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16E1F7D029531D0A0055A87A /* PBXTargetDependency */,
+			);
+			name = HopeboyTests;
+			productName = HopeboyTests;
+			productReference = 16E1F7CE29531D0A0055A87A /* HopeboyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16E1F7D729531D0A0055A87A /* HopeboyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E1F7E829531D0A0055A87A /* Build configuration list for PBXNativeTarget "HopeboyUITests" */;
+			buildPhases = (
+				16E1F7D429531D0A0055A87A /* Sources */,
+				16E1F7D529531D0A0055A87A /* Frameworks */,
+				16E1F7D629531D0A0055A87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16E1F7DA29531D0A0055A87A /* PBXTargetDependency */,
+			);
+			name = HopeboyUITests;
+			productName = HopeboyUITests;
+			productReference = 16E1F7D829531D0A0055A87A /* HopeboyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16E1F7B529531D080055A87A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					16E1F7BC29531D080055A87A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					16E1F7CD29531D0A0055A87A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 16E1F7BC29531D080055A87A;
+					};
+					16E1F7D729531D0A0055A87A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 16E1F7BC29531D080055A87A;
+					};
+				};
+			};
+			buildConfigurationList = 16E1F7B829531D080055A87A /* Build configuration list for PBXProject "Hopeboy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16E1F7B429531D080055A87A;
+			productRefGroup = 16E1F7BE29531D080055A87A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16E1F7BC29531D080055A87A /* Hopeboy */,
+				16E1F7CD29531D0A0055A87A /* HopeboyTests */,
+				16E1F7D729531D0A0055A87A /* HopeboyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16E1F7BB29531D080055A87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E1F7C829531D090055A87A /* Preview Assets.xcassets in Resources */,
+				16E1F7C529531D090055A87A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1F7CC29531D0A0055A87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1F7D629531D0A0055A87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16E1F7B929531D080055A87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E1F7C329531D080055A87A /* ContentView.swift in Sources */,
+				16E1F7C129531D080055A87A /* HopeboyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1F7CA29531D0A0055A87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E1F7D329531D0A0055A87A /* HopeboyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1F7D429531D0A0055A87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E1F7DD29531D0A0055A87A /* HopeboyUITests.swift in Sources */,
+				16E1F7DF29531D0A0055A87A /* HopeboyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16E1F7D029531D0A0055A87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16E1F7BC29531D080055A87A /* Hopeboy */;
+			targetProxy = 16E1F7CF29531D0A0055A87A /* PBXContainerItemProxy */;
+		};
+		16E1F7DA29531D0A0055A87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16E1F7BC29531D080055A87A /* Hopeboy */;
+			targetProxy = 16E1F7D929531D0A0055A87A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16E1F7E029531D0A0055A87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16E1F7E129531D0A0055A87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		16E1F7E329531D0A0055A87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hopeboy/Hopeboy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hopeboy/Preview Content\"";
+				DEVELOPMENT_TEAM = 52T2U8PH3G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhope.Hopeboy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		16E1F7E429531D0A0055A87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hopeboy/Hopeboy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hopeboy/Preview Content\"";
+				DEVELOPMENT_TEAM = 52T2U8PH3G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhope.Hopeboy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		16E1F7E629531D0A0055A87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52T2U8PH3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhope.HopeboyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hopeboy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hopeboy";
+			};
+			name = Debug;
+		};
+		16E1F7E729531D0A0055A87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52T2U8PH3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhope.HopeboyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hopeboy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hopeboy";
+			};
+			name = Release;
+		};
+		16E1F7E929531D0A0055A87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52T2U8PH3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhope.HopeboyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Hopeboy;
+			};
+			name = Debug;
+		};
+		16E1F7EA29531D0A0055A87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52T2U8PH3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhope.HopeboyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Hopeboy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16E1F7B829531D080055A87A /* Build configuration list for PBXProject "Hopeboy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E1F7E029531D0A0055A87A /* Debug */,
+				16E1F7E129531D0A0055A87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16E1F7E229531D0A0055A87A /* Build configuration list for PBXNativeTarget "Hopeboy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E1F7E329531D0A0055A87A /* Debug */,
+				16E1F7E429531D0A0055A87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16E1F7E529531D0A0055A87A /* Build configuration list for PBXNativeTarget "HopeboyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E1F7E629531D0A0055A87A /* Debug */,
+				16E1F7E729531D0A0055A87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16E1F7E829531D0A0055A87A /* Build configuration list for PBXNativeTarget "HopeboyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E1F7E929531D0A0055A87A /* Debug */,
+				16E1F7EA29531D0A0055A87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16E1F7B529531D080055A87A /* Project object */;
+}
